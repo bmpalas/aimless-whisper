@@ -1,0 +1,26 @@
+body {
+    background-color: darkslateblue;
+}
+
+.main {
+    background-color: darkorange;
+}
+
+.header {
+    background-color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkred;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.header:first-child{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #202020;
+    color: white;
+    font-size: 11px;
+}
