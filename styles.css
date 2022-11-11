@@ -1,26 +1,46 @@
 body {
     background-color: darkslateblue;
+    align-items: center;
+    display: flex;
 }
 
 .main {
+    width: 800px;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    justify-content: center;
     background-color: darkorange;
-}
+        }
 
 .header {
     background-color: yellow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
     color: darkred;
     font-size: 22px;
     font-weight: 200;
+    margin: 5px;
+    padding: 15px;
+    flex: 1;
 }
 
-.header:first-child{
-    font-size: 45px;
-    font-weight: 800;
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content{
+    padding: 30px;
+    color: white;
+    flex-grow: 1;
 }
 
 .footer {
     background-color: #202020;
     color: white;
     font-size: 11px;
+    padding: 20px;
+    
 }
