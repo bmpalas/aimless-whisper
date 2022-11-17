@@ -1,4 +1,4 @@
-let protagx = "Kesh"
+let protag = "Kesh"
 
 console.log(`${protag} is the protagonist of Aimless Whisper`);
 
@@ -22,6 +22,9 @@ let antagLeader = (adj[Math.floor(Math.random() * orgs.length)]) + " " + (noun[M
 
 Math.random
 
-console.log(`In this chapter, ${x} takes on the ${antagOrg}.`);
+console.log(`In this chapter, ${protag} takes on the ${antagOrg}.`);
 
-console.log(`The leader of ${antagOrg} is ${antagLeader}, a ${antagDesc}.`); they are 2
+console.log(`The leader of ${antagOrg} is ${antagLeader},`);
+
+// a ${antagDesc}.`); 
+
