@@ -7,7 +7,7 @@ const orgs = [ "Legion", "Circle", "Commanders", "Raiders"];
 
 const themes = [ "Wolves", "The Hawk", "The Claw", "The Chain", "Shackles"];
 
-const adj = [ "Blue", "Black", "Red", "Crimson", "Velvet", "Iron" "Bloody"];
+const adj = [ "Blue", "Black", "Red", "Crimson", "Velvet", "Iron", "Bloody"];
 
 const noun = [ "Wolf", "Hound", "Saint", "Priest", "King", "Queen", "Prince", "Boss", "Hand", "Blade", "Flame"];
 
