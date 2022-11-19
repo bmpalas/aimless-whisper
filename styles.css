@@ -42,5 +42,11 @@ h1 {
     color: white;
     font-size: 11px;
     padding: 20px;
+    align-items: flex-end;
     
+}
+
+.description {
+    font-size: small;
+    color: #602020;
 }
