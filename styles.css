@@ -1,5 +1,5 @@
 body {
-    background-color: darkslateblue;
+    background-color: rgb(50, 37, 97);
     align-items: center;
     display: flex;
 }
@@ -9,32 +9,51 @@ body {
     flex-direction: column;
     display: flex;
     margin: auto;
+    
     justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: darkorange;
         }
 
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+}
+
+#story1 {
+    font-size: 24px;
+    color:rgb(255, 255, 5);
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: flex-end;
+    font-stretch: extra-condensed;
+}
+
 .header {
     background-color: yellow;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     flex-direction: column;
     color: darkred;
     font-size: 22px;
     font-weight: 200;
     margin: 5px;
     padding: 15px;
-    flex: 1;
-}
-
-h1 {
-    font-size: 60px;
-    font-weight: 900;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex: 0 1 1;
+    display: flex;
+    /* align-items: center;  */
 }
 
 .content{
-    padding: 30px;
+    padding: 10px;
     color: white;
-    flex-grow: 1;
+    flex-grow: 1 0 auto;
+    /* line-height: .5em; */
 }
 
 .footer {
@@ -43,10 +62,17 @@ h1 {
     font-size: 11px;
     padding: 20px;
     align-items: flex-end;
-    
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    margin-top: auto;
+    display: flex;
+    }
+
+.footertext {
+    justify-self: flex-end;
 }
 
 .description {
-    font-size: small;
+    font-size: 12px;
     color: #602020;
 }
